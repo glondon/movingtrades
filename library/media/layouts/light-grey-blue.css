@@ -1,0 +1,57 @@
+/**
+ * Light grey + blue
+ * 
+ */
+ 
+
+.header {background:#fbfbfb url("../images/light-grey-blue/header-light.jpg") bottom left repeat-x;}
+
+#tagline {color:#333;text-shadow:0 1px 0 #eee;}
+
+#logo a, .footer a, .widgets-back .widgets-holder a, .widgets-holder a { color:#1F9DF6;text-shadow:0 1px 2px #fff;}
+.widgets-back .widgets-holder a, .widgets-holder a {text-shadow:none;}
+
+.menu-back {background-image:url("../images/light-grey-blue/container-menu-light-grey-blue.jpg");}
+
+
+.footer-top {background-image:url("../images/light-grey-blue/footer-top-light.jpg");}
+.footer {background-color:#fbfbfb;background-image:url("../images/light-grey-blue/footer-light.jpg");color:#333;}
+
+p#copyright {text-shadow:0 1px 2px #fff;}
+
+
+.widgets-holder .widget .wtop {background-image:url("../images/wtop-top-bottom-footer.png");}
+.widgets-holder .widget .wbottom-footer {background-image:url("../images/wtop-top-bottom-footer.png");}
+
+.widgets-holder .widget .wtop-left {background-image:url('../images/wtop-corners-footer.png');}
+.widgets-holder .widget .wtop-right {background-image:url('../images/wtop-corners-footer.png');}
+
+
+.widgets-holder .widget .wmiddle-left { background-image:url('../images/wmiddle-left-right-footer.png');}
+.widgets-holder .widget .wmiddle-right {background-image:url('../images/wmiddle-left-right-footer.png');}
+
+.widgets-holder .widget .wbottom-left {background-image:url("../images/wbottom-corners-footer.png");}
+.widgets-holder .widget .wbottom-right { background-image:url('../images/wbottom-corners-footer.png');}
+
+.widgets-holder .widget .wmiddle-footer {background:transparent url("../images/wback-footer.png");}
+
+.widgets-back {background:url("../images/widgets-back.jpg");}
+
+
+
+.widgets-holder a:hover {color:#333;}
+
+.widgets-holder ul, .widgets-holder ul ul, .widgets-holder ul ul ul {list-style-image:url("../images/list-style.gif");}
+
+.widgets-holder h3 {color:#333;text-shadow:0 1px 3px #DDDDDD;}
+
+
+/* Calendar Footer */
+
+
+.footer table#wp-calendar th, .footer table#wp-calendar tbody tr td {color:#999;background:url("../images/wback-footer.png") repeat scroll 0 0;}
+.footer table#wp-calendar th {text-shadow:0 1px 1px #fff;background:#bbb url("../images/wback-footer.png") repeat scroll 0 0;color:#333;border:1px solid #b1b1b1;border-right:1px solid #ddd;}
+.footer table#wp-calendar tbody tr td {border-right:1px solid #ddd;border-top:1px solid #ddd;}
+.footer table#wp-calendar tbody tr td.pad {opacity:.9;background:url("../images/wback-footer.png") repeat scroll 0 0;}
+.footer table#wp-calendar tbody tr td a {text-shadow:0 1px 8px #fff;}
+

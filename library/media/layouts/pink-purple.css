@@ -1,0 +1,50 @@
+/**
+ * Pink + Purple
+ * 
+ */
+ 
+ 
+a, .entry-content a:link, .entry-content a:active, .entry-content a:visited {color:#e555e0;} 
+
+.header {background:#fbb4f8 url("../images/pink-purple/header-pink.jpg") bottom left repeat-x;}
+
+#tagline {color:#333;text-shadow:0 1px 0 #fbbbf8;}
+
+#logo a, .footer a { color:#831da0;text-shadow:0 1px 2px #fbbbf8;}
+#logo a:hover, .footer a:hover { color:#333;}
+
+.menu-back {background-image:url("../images/pink-purple/container-menu-pink-purple.jpg");}
+
+
+.nav li:hover>a  {background:#c41ff6 url("../images/pink-purple/menu-item-purple.png") repeat-x scroll left top;color:#fff;text-shadow:0 1px 2px #691184;}
+.nav li li:hover>a  {border-color:#a414d0;} 
+
+.nav a:hover,.nav li.current_page_item a,.nav li.current_page_parent a,.nav li.current_page_ancestor a {background:#c41ff6 url("../images/pink-purple/menu-item-purple.png") repeat-x scroll left top;border-color:#a414d0;color:#fff;text-shadow:0 1px 2px #691184;}    
+
+.nav li.current_page_parent li a:hover,
+.nav li.current_page_item ul li a:hover,
+.nav li.current_page_ancestor li.page_item a:hover, 
+.nav li.current_page_parent li.current_page_item a,
+.nav li.current_page_ancestor li.current_page_parent a,
+.nav li.current_page_ancestor li.current_page_ancestor a,
+.nav li.current_page_parent li.current_page_item .page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_item a,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor a,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_item li.page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor li.page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor li.current_page_item a
+ {background:#c41ff6 url("../images/pink-purple/menu-item-purple.png") repeat-x scroll left top;border-color:#a414d0;color:#fff;text-shadow:0 1px 2px #691184;}
+
+#secondary a, #secondary-2 a, .entry-footer a, .commenter a {border-bottom-color:#e5bbe4;}  
+#secondary a:hover, #secondary-2 a:hover {border-bottom-color:#a725a2;color:#963693;}
+
+.footer-top {background-image:url("../images/pink-purple/footer-top-pink.jpg");}
+.footer {background-color:#dd8fda;background-image:url("../images/pink-purple/footer-pink.jpg");color:#333;}
+p#copyright {text-shadow:0 1px 2px #fbbbf8;}
+
+.footer .widgets-holder {color:#fff;}
+.footer .widgets-holder a {color:#dbace8;text-shadow:0 1px 2px #444;}
+.footer .widgets-holder a:hover {color:#fff;}
+
+

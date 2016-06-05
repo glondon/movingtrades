@@ -1,0 +1,56 @@
+/**
+ * Brown + Yellow
+ * 
+ */
+
+a, .entry-content a:link, .entry-content a:active, .entry-content a:visited {color:#846430;} 
+ 
+.header {background:#896832 url("../images/brown-yellow/header-brown.jpg") bottom left repeat-x;}
+
+#tagline {color:#fff;text-shadow:0 1px 0 #3e311c;}
+
+#logo a, .footer a { color:yellow;text-shadow:0 1px 2px #18130b;}
+#logo a:hover, .footer a:hover { color:#fff;}
+
+.menu-back {background-image:url("../images/brown-yellow/container-menu-brown-yellow.jpg");}
+
+
+
+
+.nav li:hover>a  {background:#f6f61f url("../images/green-yellow/menu-item-yellow.png") repeat-x scroll left top;color:#111;text-shadow:0 1px 2px #ffffbc;}
+.nav li li:hover>a  {border-color:#d0d014;} 
+
+.nav a:hover,.nav li.current_page_item a,.nav li.current_page_parent a,.nav li.current_page_ancestor a {background:#f6f61f url("../images/green-yellow/menu-item-yellow.png") repeat-x scroll left top;border-color:#d0d014;color:#111;text-shadow:0 1px 2px #ffffbc;}    
+
+.nav li.current_page_parent li a:hover,
+.nav li.current_page_item ul li a:hover,
+.nav li.current_page_ancestor li.page_item a:hover, 
+.nav li.current_page_parent li.current_page_item a,
+.nav li.current_page_ancestor li.current_page_parent a,
+.nav li.current_page_ancestor li.current_page_ancestor a,
+.nav li.current_page_parent li.current_page_item .page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_item a,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor a,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_item li.page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor li.page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor li.current_page_item a
+ {background:#f6f61f url("../images/green-yellow/menu-item-yellow.png") repeat-x scroll left top;border-color:#d0d014;color:#111;text-shadow:0 1px 2px #ffffbc;}
+
+
+
+
+
+
+
+#secondary a, #secondary-2 a, .entry-footer a, .commenter a {border-bottom-color:#c3a471;}  
+#secondary a:hover, #secondary-2 a:hover {border-bottom-color:#4e422d;color:#634b24;}
+
+
+
+
+.footer-top {background-image:url("../images/brown-yellow/footer-top-brown.jpg");}
+.footer {background-color:#695429;background-image:url("../images/brown-yellow/footer-brown.jpg");color:#fff;}
+
+
+

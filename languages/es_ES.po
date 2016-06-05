@@ -1,0 +1,499 @@
+# Translation of the EvoLve by Theme4Press.
+# This file is distributed under the same license as the EvoLve package.
+msgid ""
+msgstr ""
+"Project-Id-Version: EvoLve\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-08 21:14+0100\n"
+"PO-Revision-Date: 2011-02-09 22:10+0100\n"
+"Last-Translator: Noé Martínez <noah@iespana.es>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+
+#: comments.php:14
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Este art&iacute;culo esta protegido por contrase&ntilde;a. Introduzca la contrase&ntilde;a para ver los comentarios."
+
+#: comments.php:53
+msgid "No Comments Yet"
+msgstr "No se han encontrado comentarios"
+
+#: footer.php:212
+msgid "Back to Top"
+msgstr "Volver al principio"
+
+#: functions.php:69
+msgid "Right &nbsp;&nbsp;&nbsp;(default)"
+msgstr "Derecha &nbsp;&nbsp;&nbsp;(por defecto)"
+
+#: functions.php:73
+#: functions.php:372
+msgid "Left"
+msgstr "Izquierda"
+
+#: functions.php:77
+msgid "Left + Right"
+msgstr "Izquierda + Derecha"
+
+#: functions.php:84
+msgid "Left &nbsp;&nbsp;&nbsp;(default)"
+msgstr "Izquierda &nbsp;&nbsp;&nbsp;(por defecto)"
+
+#: functions.php:88
+#: functions.php:376
+msgid "Right"
+msgstr "Derecha"
+
+#: functions.php:92
+#: functions.php:107
+#: functions.php:133
+#: functions.php:148
+#: functions.php:163
+#: functions.php:400
+#: functions.php:415
+#: functions.php:434
+#: functions.php:453
+msgid "Disable"
+msgstr "Desactivar"
+
+#: functions.php:99
+#: functions.php:225
+msgid "1 &nbsp;&nbsp;&nbsp;(default)"
+msgstr "1 &nbsp;&nbsp;&nbsp;(por defecto)"
+
+#: functions.php:103
+#: functions.php:229
+#: functions.php:295
+#: functions.php:319
+msgid "2"
+msgstr ""
+
+#: functions.php:114
+msgid "Fixed &nbsp;&nbsp;&nbsp;(default)"
+msgstr "Fijo &nbsp;&nbsp;&nbsp;(default)"
+
+#: functions.php:118
+msgid "Fluid"
+msgstr "Fluido"
+
+#: functions.php:125
+#: functions.php:140
+#: functions.php:155
+msgid "Search Field + Subscribe Buttons &nbsp;&nbsp;&nbsp;(default)"
+msgstr "Campo de B&uacute;squeda + Botones de subscripci&oacute;n &nbsp;&nbsp;&nbsp;(por defecto)"
+
+#: functions.php:129
+#: functions.php:144
+#: functions.php:159
+msgid "Recent Posts + Search Field + Subscribe Buttons"
+msgstr "Mensajes recientes + Campo de B&uacute;squeda + Botones de Subscripci&oacute;n"
+
+#: functions.php:171
+#: functions.php:182
+msgid "Light &nbsp;&nbsp;&nbsp;(default)"
+msgstr "Claro &nbsp;&nbsp;&nbsp;(por defecto)"
+
+#: functions.php:175
+#: functions.php:186
+msgid "Dark"
+msgstr "Oscuro"
+
+#: functions.php:194
+msgid "Dark Grey + Blue &nbsp;&nbsp;&nbsp;(default)"
+msgstr ""
+
+#: functions.php:198
+msgid "Light Grey + Blue"
+msgstr "Gris claro + Azul"
+
+#: functions.php:202
+msgid "Green + Yellow"
+msgstr "Verde + Amarillo"
+
+#: functions.php:206
+msgid "Red + Yellow"
+msgstr "Rojo + Amarillo"
+
+#: functions.php:210
+msgid "Pink + Purple"
+msgstr "Rosa + Púrura"
+
+#: functions.php:214
+msgid "Light Blue + Blue"
+msgstr "Azul Claro + Azul"
+
+#: functions.php:218
+msgid "Brown + Yellow"
+msgstr "Marr&oacute;n + Amarillo"
+
+#: functions.php:233
+#: functions.php:299
+#: functions.php:323
+msgid "3"
+msgstr ""
+
+#: functions.php:240
+msgid "Impact &nbsp;&nbsp;&nbsp;(default)"
+msgstr ""
+
+#: functions.php:244
+msgid "Tahoma"
+msgstr ""
+
+#: functions.php:248
+#: functions.php:271
+msgid "Georgia"
+msgstr ""
+
+#: functions.php:252
+#: functions.php:267
+msgid "Arial"
+msgstr ""
+
+#: functions.php:256
+#: functions.php:279
+msgid "Calibri"
+msgstr ""
+
+#: functions.php:263
+msgid "Segoe UI &nbsp;&nbsp;&nbsp;(default)"
+msgstr ""
+
+#: functions.php:275
+msgid "Courier New"
+msgstr ""
+
+#: functions.php:287
+#: functions.php:311
+#: functions.php:349
+#: functions.php:368
+#: functions.php:460
+msgid "Disable &nbsp;&nbsp;&nbsp;(default)"
+msgstr "Desactivar &nbsp;&nbsp;&nbsp;(por defecto)"
+
+#: functions.php:291
+#: functions.php:315
+msgid "1"
+msgstr ""
+
+#: functions.php:303
+#: functions.php:327
+msgid "4"
+msgstr ""
+
+#: functions.php:334
+msgid "After posts &nbsp;&nbsp;&nbsp;(default)"
+msgstr "Despu&eacte;s de mensajes &nbsp;&nbsp;&nbsp;(por defecto)"
+
+#: functions.php:338
+msgid "Before posts"
+msgstr "Antes de mensajes"
+
+#: functions.php:342
+#: functions.php:430
+msgid "Both"
+msgstr "Ambos"
+
+#: functions.php:353
+msgid "Normal"
+msgstr ""
+
+#: functions.php:357
+msgid "Slow"
+msgstr "Lento"
+
+#: functions.php:361
+msgid "Fast"
+msgstr "R&aacute;pido"
+
+#: functions.php:380
+msgid "Middle"
+msgstr "Medio"
+
+#: functions.php:388
+msgid "Single posts &nbsp;&nbsp;&nbsp;(default)"
+msgstr "Mensajes Individuales &nbsp;&nbsp;&nbsp;(por defecto)"
+
+#: functions.php:392
+msgid "Single posts + Archive pages"
+msgstr "Mensajes Individuales + Archivo de páginas"
+
+#: functions.php:396
+msgid "All pages"
+msgstr "Todas las p&aacute;ginas"
+
+#: functions.php:407
+msgid "Single posts + Archive pages &nbsp;&nbsp;&nbsp;(default)"
+msgstr "Mensajes Individuales + Archivo de p&aacute;ginas &nbsp;&nbsp;&nbsp;(por defecto)"
+
+#: functions.php:411
+msgid "Single posts"
+msgstr "Mensajes Individuales"
+
+#: functions.php:422
+msgid "After post content &nbsp;&nbsp;&nbsp;(default)"
+msgstr "Despu&eacute;s del contenido del mensaje  &nbsp;&nbsp;&nbsp;(por defecto)"
+
+#: functions.php:426
+msgid "Before post content"
+msgstr "Antes del contenido del mensaje"
+
+#: functions.php:441
+msgid "Next to blog title &nbsp;&nbsp;&nbsp;(default)"
+msgstr "Junto al t&iacute;tulo del blog  &nbsp;&nbsp;&nbsp;(por defecto)"
+
+#: functions.php:445
+msgid "Above blog title"
+msgstr "Sobre el t&iacute;tulo del blog"
+
+#: functions.php:449
+msgid "Under blog title"
+msgstr "Bajo t&iacute;tulo del blog"
+
+#: functions.php:464
+msgid "Match by categories"
+msgstr "Corresponder con Categorías"
+
+#: functions.php:468
+msgid "Match by tags"
+msgstr "Corresponder con etiquetas"
+
+#: functions.php:2656
+msgid "Primary Menu"
+msgstr "Men&uacute; Principal"
+
+#: functions.php:2713
+msgid "<div style=\"padding:5px;margin-bottom:40px;\"><h5 style=\"font-style:italic;\">Similar posts</h5><ul style=\"margin-bottom:0px;\">"
+msgstr "<div style=\"padding:5px;margin-bottom:40px;\"><h5 style=\"font-style:italic;\">Mensajes similares</h5><ul style=\"margin-bottom:0px;\">"
+
+#: functions.php:2779
+msgid "SHARE THIS"
+msgstr "COMPARTE ESTO CON"
+
+#: functions.php:2784
+msgid "E-mail"
+msgstr "Correo Electr&oacute;nico"
+
+#: functions.php:2785
+msgid "More options"
+msgstr "M&aacute;s opciones"
+
+#: header-content.php:20
+#: header-content.php:170
+msgid "KEEP IN TOUCH"
+msgstr "CONECTARSE CON"
+
+#: header-content.php:120
+msgid "Read more"
+msgstr "Leer m&aacute;s"
+
+#: header-content.php:135
+msgid "Oops, please try to refresh the page"
+msgstr "Por favor, intente volver a cargar la p&aacute;gina"
+
+#: header.php:31
+#, php-format
+msgid "Page %s"
+msgstr "P&aacute;gina %s"
+
+#: index.php:35
+#: index.php:188
+#: index.php:428
+#: index.php:452
+#: index.php:617
+#: index.php:650
+#: index.php:817
+msgid "Untitled"
+msgstr "Sin t&iacute;tulo"
+
+#: index.php:62
+msgid "By"
+msgstr "Por"
+
+#: index.php:64
+#: index.php:216
+#: index.php:442
+#: index.php:644
+msgid "edit"
+msgstr "editar"
+
+#: index.php:75
+#: index.php:224
+#: index.php:457
+#: index.php:654
+#: index.php:821
+msgid "EDIT"
+msgstr "EDITAR"
+
+#: index.php:213
+#: index.php:440
+#: index.php:640
+msgid "Written by"
+msgstr "Escrito por"
+
+#: index.php:247
+#: index.php:695
+#: index.php:830
+msgid "READ MORE &raquo;"
+msgstr "LEER M&Aacute;S &raquo;"
+
+#: index.php:271
+#: index.php:711
+msgid "Posted in"
+msgstr "Publicado en"
+
+#: index.php:274
+#: index.php:715
+msgid "Tagged"
+msgstr "Etiquetado"
+
+#: index.php:310
+#: index.php:553
+#: index.php:772
+#: index.php:856
+msgid "Not Found"
+msgstr "No se ha encontrado"
+
+#: index.php:316
+#: index.php:557
+#: index.php:776
+#: index.php:860
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Lo sentimos, pero usted esta buscando algo que no esta aqu&iacute;."
+
+#: index.php:348
+msgid "Daily archives for"
+msgstr "Diario de archivos"
+
+#: index.php:350
+msgid "Monthly archives for"
+msgstr "Archivos mensuales de"
+
+#: index.php:352
+msgid "Yearly archives for"
+msgstr "Archivos anuales  de"
+
+#: index.php:356
+msgid "Posts in category"
+msgstr "Mensajes en la categor&iacute;a"
+
+#: index.php:360
+msgid "Posts tagged"
+msgstr "Mensajes etiquetados"
+
+#: index.php:366
+msgid "Search results for"
+msgstr "Resultados de la b&uacute;squeda de"
+
+#: index.php:371
+msgid "Posts by"
+msgstr "Escrito por"
+
+#: index.php:499
+#: index.php:689
+msgid "READ MORE"
+msgstr "LEER M&Aacute;S"
+
+#: index.php:533
+#: index.php:752
+msgid "Your search for"
+msgstr "Su b&uacute,squeda de"
+
+#: index.php:533
+#: index.php:752
+msgid "did not match any entries"
+msgstr "No se ha encontrado en esta página"
+
+#: index.php:538
+#: index.php:757
+msgid "Suggestions:"
+msgstr "Sugerencias:"
+
+#: index.php:540
+#: index.php:759
+msgid "Make sure all words are spelled correctly."
+msgstr "Aseg&uacute;rese de que todas las palabras est&eacute;n escritas correctamente."
+
+#: index.php:541
+#: index.php:760
+msgid "Try different keywords."
+msgstr "Intente usar palabras diferentes."
+
+#: index.php:542
+#: index.php:761
+msgid "Try more general keywords."
+msgstr "Intente usar palabras m&aacute;s comunes."
+
+#: navigation.php:12
+msgid "<span class=\"nav-meta\">&laquo;</span> %link"
+msgstr ""
+
+#: navigation.php:13
+msgid "<span class=\"nav-meta\">&raquo;</span> %link"
+msgstr ""
+
+#: navigation.php:23
+msgid "<span class=\"nav-meta\">&laquo;</span> Older Entries"
+msgstr "<span class=\"nav-meta\">&laquo;</span> Entradas Anteriores"
+
+#: navigation.php:24
+msgid "Newer Entries <span class=\"nav-meta\">&raquo;</span>"
+msgstr "Nuevas Entradas <span class=\"nav-meta\">&raquo;</span>"
+
+#: searchform.php:18
+msgid "Type your search"
+msgstr "Escriba el texto a buscar"
+
+#: searchform.php:31
+msgid "GO"
+msgstr "BUSCAR"
+
+#: sidebar-2.php:35
+msgid "Pages"
+msgstr "P&aacute;ginas"
+
+#: sidebar-2.php:47
+msgid "Archives"
+msgstr "Archivos"
+
+#: sidebar-2.php:58
+msgid "Recent Comments"
+msgstr "Comentarios recientes"
+
+#: sidebar-2.php:92
+msgid "Calendar"
+msgstr "Calendario"
+
+#: sidebar-2.php:102
+msgid "Meta"
+msgstr ""
+
+#: sidebar.php:34
+msgid "Recent Posts"
+msgstr "Mensajes recientes"
+
+#: sidebar.php:47
+msgid "Categories"
+msgstr "Categor&iacute;as"
+
+#: sidebar.php:57
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: sidebar.php:65
+msgid "RSS Syndication"
+msgstr "Sindicaci&oacute;n RSS"
+
+#: sidebar.php:67
+msgid "All posts"
+msgstr "Todos los mensajes"
+
+#: sidebar.php:68
+msgid "All comments"
+msgstr "Todos los comentarios"
+

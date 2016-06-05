@@ -1,0 +1,51 @@
+/**
+ * Red + Yellow
+ * 
+ */
+ 
+ 
+a, .entry-content a:link, .entry-content a:active, .entry-content a:visited {color:#ff4a0b;} 
+
+.header {background:#d5430a url("../images/red-yellow/header-red.jpg") bottom left repeat-x;}
+
+#tagline {color:#fff;text-shadow:0 1px 0 #863219;}
+
+#logo a, .footer a { color:yellow;text-shadow:0 1px 2px #471b0d;}
+#logo a:hover, .footer a:hover { color:#fff;}
+
+.menu-back {background-image:url("../images/red-yellow/container-menu-red-yellow.jpg");}
+
+
+.nav li:hover>a  {background:#f6f61f url("../images/green-yellow/menu-item-yellow.png") repeat-x scroll left top;color:#111;text-shadow:0 1px 2px #ffffbc;}
+.nav li li:hover>a  {border-color:#d0d014;} 
+
+.nav a:hover,.nav li.current_page_item a,.nav li.current_page_parent a,.nav li.current_page_ancestor a {background:#f6f61f url("../images/green-yellow/menu-item-yellow.png") repeat-x scroll left top;border-color:#d0d014;color:#111;text-shadow:0 1px 2px #ffffbc;}    
+
+.nav li.current_page_parent li a:hover,
+.nav li.current_page_item ul li a:hover,
+.nav li.current_page_ancestor li.page_item a:hover, 
+.nav li.current_page_parent li.current_page_item a,
+.nav li.current_page_ancestor li.current_page_parent a,
+.nav li.current_page_ancestor li.current_page_ancestor a,
+.nav li.current_page_parent li.current_page_item .page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_item a,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor a,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_item li.page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor li.page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor li.current_page_item a
+ {background:#f6f61f url("../images/green-yellow/menu-item-yellow.png") repeat-x scroll left top;border-color:#d0d014;color:#111;text-shadow:0 1px 2px #ffffbc;}
+
+
+
+
+
+
+
+#secondary a, #secondary-2 a, .entry-footer a, .commenter a {border-bottom-color:#ffbfa9;}  
+#secondary a:hover, #secondary-2 a:hover {border-bottom-color:#912500;color:#a12f07;}
+
+.footer-top {background-image:url("../images/red-yellow/footer-top-red.jpg");}
+.footer {background-color:#b14119;background-image:url("../images/red-yellow/footer-red.jpg");color:#fff;}
+
+

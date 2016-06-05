@@ -1,0 +1,11 @@
+/**
+ * Light grey + blue + dark
+ * 
+ */
+ 
+                                                                                                          
+.menu-back {background-image:url("../images/light-grey-blue/container-menu-light-grey-blue-dark.jpg");}
+
+.widgets-back {background:url("../images/dark/widgets-back-dark.jpg");}  
+
+.widgets-back a:hover {color:orange}

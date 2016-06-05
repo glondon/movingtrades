@@ -1,0 +1,18 @@
+/**
+ * Green + yellow + dark
+ * 
+ */
+ 
+ 
+a, .entry-content a:link, .entry-content a:active, .entry-content a:visited {color:#6fdb2e;} 
+
+.menu-back {background-image:url("../images/green-yellow/container-menu-green-yellow-dark.jpg");}
+
+.entry-footer a {border-bottom:1px dotted #666;}
+
+#secondary a, #secondary-2 a {border-bottom:1px dotted #666;}
+#secondary a:hover, #secondary-2 a:hover {border-bottom-color:#aaa;color:#fff;text-shadow:0 1px 1px #000;}
+
+.widgets-back {background:url("../images/dark/widgets-back-dark.jpg");}  
+
+.widgets-back a:hover {color:#fff}

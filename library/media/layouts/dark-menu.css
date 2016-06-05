@@ -1,0 +1,23 @@
+.menu-top-left {background-image:url('../images/dark/menu-corners-dark.png');}
+.menu-top-right { background-image:url('../images/dark/menu-corners-dark.png');}
+
+.menu-bottom-left {background-image:url('../images/dark/menu-corners-dark.png');}
+.menu-bottom-right { background-image:url('../images/dark/menu-corners-dark.png');}
+
+.menu-middle-left {background-image:url("../images/dark/menu-left-right-dark.png");}
+.menu-middle-right {background-image:url("../images/dark/menu-left-right-dark.png");}
+
+.menu-top {background-image:url("../images/dark/menu-top-bottom-dark.png");}
+.menu-bottom {background-image:url("../images/dark/menu-top-bottom-dark.png");}
+
+.menu-middle {background-color:#565656;}
+
+.nav a {color:#fff;text-shadow:0 1px 1px #333; }
+
+.nav li.nav-hover ul { background: #565656; }
+
+.nav ul { border: 1px solid #505050; -moz-box-shadow:2px 0px 2px #444;}
+.nav ul li a { border-bottom: 1px solid #505050;}
+
+.nav li.current_page_parent li a, .nav li.current_page_item ul li a, .nav li.current_page_ancestor li.page_item a, .nav li.current_page_parent li.current_page_item .page_item a, .nav li.current_page_ancestor li.current_page_ancestor li.page_item a, .nav li.current_page_ancestor li.current_page_ancestor li.current_page_item li.page_item a, .nav li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor li.page_item a {
+background:#565656;border-color:#505050;color:#fff;text-shadow:0 1px 1px #333;}

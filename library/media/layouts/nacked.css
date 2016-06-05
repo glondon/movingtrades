@@ -1,0 +1,26 @@
+.header, .menu-back, .content, .content-top, .content-bottom, .footer-top, .footer, .hentry,
+.wmiddle, .wmiddle-right, .wbottom, .wright, .wtop-top, .wtop-left, .wtop-right, .wtop-middle, .wtopmiddle-left, .wtopmiddle-right,
+.entry-header, .published, .widgets-back, .menu-container, .share-this, .wmiddle-left, .wmiddle-right, .wsbottom-left, .wsbottom-right, #respond,
+.comment, .trackback, .pingback {background-image:none;}
+
+.nacked-menu {top:-15px;}
+
+
+.aside .wmiddle-left, .aside .wmiddle-right, .aside .wsbottom-left, .aside .wsbottom-right {background-color:#fff;}
+
+.content {background-color:#eeeff4;}
+
+.menu-back, .content-top, .entry-header, #respond {background-color:#dcdfe4;}
+
+.aside .wtop-top, .aside .wtop-left, .aside .wtop-right,.aside .wtopmiddle-left, .aside .wtopmiddle-right  {background-color:#575a62;}
+
+.aside .wtop-left {left:-19px;}
+
+.aside .wtop-right {right:-19px;}
+
+.aside .wtop-top {left:-9px;right:-9px;}
+
+.menu-top-left, .menu-top-right, .menu-bottom-left, .menu-bottom-right, .menu-middle-left, .menu-middle-right, .menu-top,
+.menu-bottom, .menu-middle {background-image:none;background:#eee;}
+
+
