@@ -126,15 +126,15 @@
                         <div class="textwidget">
 
                             <div align="center"> 
-                                <script src='http://profit.ly/static/widget/2/widget.js'></script>
+                                <script src='http://static.profit.ly/static/widget/5/widget.pack.js'></script>
                                 <script>
                                 var widget = new PROFITLY.Widget({
-                                  name: 'movingtrades',
+                                  name: 'signupmakemoney',
                                   trades: 20,
                                   width: 250,
                                   type: 'user',
                                   style: 'tradetable',
-                                  affiliate: 154,
+                                  affiliate: 8158,
                                   percentage: false,
                                   height: 300
                                 });
