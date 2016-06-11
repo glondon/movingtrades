@@ -70,6 +70,8 @@
             </div>
         </div>
 
+        <?php if (!is_page('resources')) { ?>
+
         <div id="text-4" class="widget widget_text">
             <div style="position:relative;">
                 <div class="wmiddle-left"></div>
@@ -149,6 +151,8 @@
             </div>
         </div>
 
+        <?php } ?>
+        
         <!-- end hardcoded sidebar -->
         
 
