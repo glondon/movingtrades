@@ -77,34 +77,34 @@
                                   </fieldset>
                                 </form>
                                 <script type="text/javascript">
-                                  $('document').ready(function(){
+                                  $jm('document').ready(function(){
                                     //subscribe
-                                    $('#subscribe_submit').click(function(e){
+                                    $jm('#subscribe_submit').click(function(e){
 
                                         e.preventDefault();
 
-                                        $('#sub_errors').empty();
+                                        $jm('#sub_errors').empty();
 
-                                        $.post('<?php echo get_template_directory_uri() ?>/subscribe.php', $('#subscribe_form').serialize(), function(data){
+                                        $jm.post('<?php echo get_template_directory_uri() ?>/subscribe.php', $jm('#subscribe_form').serialize(), function(data){
                                           if(data.success){
-                                            $('#sub_success').fadeIn();
-                                            $('#sub_success').html('<p>Thank you for subscribing!</p>');
-                                            $('#subscribe_form').fadeOut();
+                                            $jm('#sub_success').fadeIn();
+                                            $jm('#sub_success').html('<p>Thank you for subscribing!</p>');
+                                            $jm('#subscribe_form').fadeOut();
                                           } 
                                           else{
-                                            $('#sub_errors').show();
+                                            $jm('#sub_errors').show();
                                             for(var i in data.errors)
-                                              $('#sub_errors').append('<li>' + data.errors[i] + '</li>');                                 
+                                              $jm('#sub_errors').append('<li>' + data.errors[i] + '</li>');                                 
                                           }
 
                                         }, 'json');
                                     });
                                   });
                                   // Ajax loading gif...
-                                $(document).ajaxStart(function(){
-                                    $('#loadingDiv').show();
+                                $jm(document).ajaxStart(function(){
+                                    $jm('#loadingDiv').show();
                                  }).ajaxStop(function(){
-                                    $('#loadingDiv').hide();
+                                    $jm('#loadingDiv').hide();
                                  });
                                 </script>
                             </div>
