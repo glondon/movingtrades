@@ -88,7 +88,7 @@
                                         $jm.post('<?php echo get_template_directory_uri() ?>/subscribe.php', $jm('#subscribe_form').serialize(), function(data){
                                           if(data.success){
                                             $jm('#sub_success').fadeIn();
-                                            $jm('#sub_success').html('<p>Thank you for subscribing!</p>');
+                                            $jm('#sub_success').html('<p style="min-height:250px">Thank you for subscribing!</p>');
                                             $jm('#subscribe_form').fadeOut();
                                           } 
                                           else{
