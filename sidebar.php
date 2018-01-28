@@ -60,7 +60,54 @@
                     <div class="widget-content">
                         <div class="textwidget">
 
-                            <div style="padding-left:28px;"><script type="text/javascript" src="http://www.getresponse.com/view_webform.js?wid=89487"></script></div>
+                            <div style="padding-left:28px;">
+                                <div id="loadingDiv"><img src="<?php echo get_template_directory_uri() ?>/library/media/images/loading.gif" /></div>
+                                <div id="sub_success" style="display:none"></div>
+                                <form action="subscribe.php" method="post" id="subscribe_form">
+                                  <fieldset id="subscribe_fieldset">
+                                    <legend id="subscribe_legend">Free Trade Ideas</legend>
+                                    <ul id="sub_errors" style="display:none;color:red;text-align:left;list-style:none"></ul>
+                                    <input type="text" name="name" id="subscribe_name" value="" placeholder="Name" />
+                                    <input type="text" name="phone" id="subscribe_phone" value="" placeholder="Phone (optional)" />
+                                    <input type="text" name="email" id="subscribe_email" value="" placeholder="Email" />
+                                    <textarea rows="2" cols="16" name="comments" id="subscribe_comments" placeholder="Comments (optional)" maxlength="100"></textarea>
+                                    <input name="captcha" id="subscribe_captcha" type="text" placeholder="Enter Text"><br>
+                                    <img src="<?php echo get_template_directory_uri() ?>/captcha.php" id="captcha_img" /><br>
+                                    <input type="submit" id="subscribe_submit" value="Subscribe" />
+                                  </fieldset>
+                                </form>
+                                <script type="text/javascript">
+                                  $jm('document').ready(function(){
+                                    //subscribe
+                                    $jm('#subscribe_submit').click(function(e){
+
+                                        e.preventDefault();
+
+                                        $jm('#sub_errors').empty();
+
+                                        $jm.post('<?php echo get_template_directory_uri() ?>/subscribe.php', $jm('#subscribe_form').serialize(), function(data){
+                                          if(data.success){
+                                            $jm('#sub_success').fadeIn();
+                                            $jm('#sub_success').html('<p style="min-height:250px">Thank you for subscribing!</p>');
+                                            $jm('#subscribe_form').fadeOut();
+                                          } 
+                                          else{
+                                            $jm('#sub_errors').show();
+                                            for(var i in data.errors)
+                                              $jm('#sub_errors').append('<li>' + data.errors[i] + '</li>');                                 
+                                          }
+
+                                        }, 'json');
+                                    });
+                                  });
+                                  // Ajax loading gif...
+                                $jm(document).ajaxStart(function(){
+                                    $jm('#loadingDiv').show();
+                                 }).ajaxStop(function(){
+                                    $jm('#loadingDiv').hide();
+                                 });
+                                </script>
+                            </div>
 
                         </div>
                     </div>

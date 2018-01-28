@@ -1,69 +1,141 @@
-/* 
-Theme Name: EvoLve
-Theme URI: http://theme4press.com/evolve
-Version: 1.2.5
-Description: EvoLve is a premium WordPress theme with advanced features including lots of options. It features a modern design with up to 14 color variants, fully customizable layout, post excerpts with thumbnails, post boxes, author gravatar support, up to 10 subscribe/social customizable buttons, custom logo, header widgets, recent posts slideshow, footer widgets, custom footer, customizable font styles, custom CSS, ads spaces. The EvoLve theme also comes with custom Menus support and other cool features. Translated in Spanish, German, Swedish, Dutch, French, Russian, Turkish, Norwegian, Slovenian, Italian, Brazilian Portuguese. Tested with WP 3.1 and major browsers - Mozilla Firefox, Internet Explorer, Opera and Chrome. 
-Author: Theme4Press
-Author URI: http://theme4press.com
-Tags: two-columns, flexible-width, sticky-post, threaded-comments, microformats, custom-menu, black, blue, white, dark, right-sidebar, custom-header, custom-menu, theme-options, translation-ready
-License: GNU General Public License v2.0
-License URI: http://www.gnu.org/licenses/gpl-2.0.html  
-*/
-
-
-/*-------- Changelog --------
-
-
-Version:         1.2.5  -  Bug fixes
-Date:         19/6/11
-
-Version:         1.2.4  -  Added translation - Brazilian Portuguese
-Date:         29/4/11
-
-Version:         1.2.3  -  CSS and jQuery fixes, added translations - Norwegian, Slovenian, Italian
-Date:         19/4/11
-
-Version:         1.2.2  -  jQuery fixes, CSS fixes
-Date:         6/4/11
-
-Version:         1.2.1  -  jQuery fixed, added translation - Turkish
-Date:         5/4/11
-
-Version:         1.2.0  -  Added translation - Russian
-Date:         1/4/11
-
-Version:         1.1.9  -  Layout and PHP fixes
-Date:         31/3/11
-
-Version:         1.1.8  -  CSS and PHP fixes
-Date:         21/3/11
-
-Version:         1.1.7  -  CSS and PHP fixes, added translations - Spanish, German, Swedish, Dutch, French
-Date:         7/3/11
-
-Version:         1.1.6  -  CSS and PHP fixes, added translation availability
-Date:         8/2/11
-
-Version:         1.1.5  -  CSS and PHP fixes, added LinkedIn social button
-Date:         7/2/11
-
-Version:         1.1.2  -  Initial release
-Date:         11/1/11
-
-*/
-
-/* Reset Browser Defaults */
-@import url( 'library/media/css/reset.css' );
-
-/* Apply base theme styles and colors */
-@import url( 'library/media/css/base.css' );
-
-/* Basic 2 Column Layout */
-@import url( 'library/media/layouts/2col-r.css' );
-
-.alignleft { float: left; margin: 5px 20px 10px 0; }
-.alignright { float: right; margin: 5px 0 10px 20px; }
-.aligncenter { margin: 5px auto 10px auto; display: block; clear: both; }
-
-
-
+/* 
+
+Theme Name: EvoLve
+
+Theme URI: http://theme4press.com/evolve
+
+Version: 1.2.5
+
+Description: EvoLve is a premium WordPress theme with advanced features including lots of options. It features a modern design with up to 14 color variants, fully customizable layout, post excerpts with thumbnails, post boxes, author gravatar support, up to 10 subscribe/social customizable buttons, custom logo, header widgets, recent posts slideshow, footer widgets, custom footer, customizable font styles, custom CSS, ads spaces. The EvoLve theme also comes with custom Menus support and other cool features. Translated in Spanish, German, Swedish, Dutch, French, Russian, Turkish, Norwegian, Slovenian, Italian, Brazilian Portuguese. Tested with WP 3.1 and major browsers - Mozilla Firefox, Internet Explorer, Opera and Chrome. 
+
+Author: Theme4Press
+
+Author URI: http://theme4press.com
+
+Tags: two-columns, flexible-width, sticky-post, threaded-comments, microformats, custom-menu, black, blue, white, dark, right-sidebar, custom-header, custom-menu, theme-options, translation-ready
+
+License: GNU General Public License v2.0
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+
+*/
+
+
+
+
+
+/*-------- Changelog --------
+
+
+
+
+
+Version:         1.2.5  -  Bug fixes
+
+Date:         19/6/11
+
+
+
+Version:         1.2.4  -  Added translation - Brazilian Portuguese
+
+Date:         29/4/11
+
+
+
+Version:         1.2.3  -  CSS and jQuery fixes, added translations - Norwegian, Slovenian, Italian
+
+Date:         19/4/11
+
+
+
+Version:         1.2.2  -  jQuery fixes, CSS fixes
+
+Date:         6/4/11
+
+
+
+Version:         1.2.1  -  jQuery fixed, added translation - Turkish
+
+Date:         5/4/11
+
+
+
+Version:         1.2.0  -  Added translation - Russian
+
+Date:         1/4/11
+
+
+
+Version:         1.1.9  -  Layout and PHP fixes
+
+Date:         31/3/11
+
+
+
+Version:         1.1.8  -  CSS and PHP fixes
+
+Date:         21/3/11
+
+
+
+Version:         1.1.7  -  CSS and PHP fixes, added translations - Spanish, German, Swedish, Dutch, French
+
+Date:         7/3/11
+
+
+
+Version:         1.1.6  -  CSS and PHP fixes, added translation availability
+
+Date:         8/2/11
+
+
+
+Version:         1.1.5  -  CSS and PHP fixes, added LinkedIn social button
+
+Date:         7/2/11
+
+
+
+Version:         1.1.2  -  Initial release
+
+Date:         11/1/11
+
+
+
+*/
+
+
+
+/* Reset Browser Defaults */
+
+@import url( 'library/media/css/reset.css' );
+
+
+
+/* Apply base theme styles and colors */
+
+@import url( 'library/media/css/base.css' );
+
+
+
+/* Basic 2 Column Layout */
+
+@import url( 'library/media/layouts/2col-r.css' );
+
+
+
+.alignleft { float: left; margin: 5px 20px 10px 0; }
+
+.alignright { float: right; margin: 5px 0 10px 20px; }
+
+.aligncenter { margin: 5px auto 10px auto; display: block; clear: both; }
+
+/* subscribe form items */
+#subscribe_name, #subscribe_email, #subscribe_captcha, #subscribe_phone, #subscribe_comments {padding:5px;margin-top:8px}
+#subscribe_submit {padding:10px;margin-top:8px;margin-bottom:8px}
+#captcha_img {margin-top:8px}
+#subscribe_fieldset {padding:5px;min-height:325px;max-width:200px}
+#subscribe_legend {padding:5px;font-size:18px}
+#loadingDiv {display : block;position: fixed;top: 50%;left: 50%;display:none}
+
+
